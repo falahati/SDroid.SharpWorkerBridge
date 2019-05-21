@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDroid", "SDroid\SDroid\SDroid.csproj", "{1E6A245E-AC99-40E3-9FC6-5AA2FCA581AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDroid.SteamMobile", "SDroid\SDroid.SteamMobile\SDroid.SteamMobile.csproj", "{22D2934E-3DE8-4DF3-8854-75F8A82250BC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDroid.SteamTrade", "SDroid\SDroid.SteamTrade\SDroid.SteamTrade.csproj", "{B0E5DBF1-8E40-4ABE-8342-F4D9334E8501}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDroid.SteamWeb", "SDroid\SDroid.SteamWeb\SDroid.SteamWeb.csproj", "{E78BAA2B-C5B8-496B-8800-FFBF63271405}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LiteDB", "SharpWorker\LiteDB\LiteDB\LiteDB.csproj", "{45B921BC-62AA-4BAE-A6A1-F1A3A104927F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharpWorker", "SharpWorker\SharpWorker\SharpWorker.csproj", "{3A943EF4-5BE8-42F6-B4B2-DC1B74F1FCEC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SDroid.SharpWorkerBridge", "SDroid.SharpWorkerBridge\SDroid.SharpWorkerBridge.csproj", "{7E98ECCE-E17B-4864-AB3A-E7B282345713}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E6A245E-AC99-40E3-9FC6-5AA2FCA581AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E6A245E-AC99-40E3-9FC6-5AA2FCA581AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E6A245E-AC99-40E3-9FC6-5AA2FCA581AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E6A245E-AC99-40E3-9FC6-5AA2FCA581AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22D2934E-3DE8-4DF3-8854-75F8A82250BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22D2934E-3DE8-4DF3-8854-75F8A82250BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22D2934E-3DE8-4DF3-8854-75F8A82250BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22D2934E-3DE8-4DF3-8854-75F8A82250BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E5DBF1-8E40-4ABE-8342-F4D9334E8501}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E5DBF1-8E40-4ABE-8342-F4D9334E8501}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E5DBF1-8E40-4ABE-8342-F4D9334E8501}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E5DBF1-8E40-4ABE-8342-F4D9334E8501}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E78BAA2B-C5B8-496B-8800-FFBF63271405}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E78BAA2B-C5B8-496B-8800-FFBF63271405}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E78BAA2B-C5B8-496B-8800-FFBF63271405}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E78BAA2B-C5B8-496B-8800-FFBF63271405}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45B921BC-62AA-4BAE-A6A1-F1A3A104927F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45B921BC-62AA-4BAE-A6A1-F1A3A104927F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45B921BC-62AA-4BAE-A6A1-F1A3A104927F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45B921BC-62AA-4BAE-A6A1-F1A3A104927F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A943EF4-5BE8-42F6-B4B2-DC1B74F1FCEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A943EF4-5BE8-42F6-B4B2-DC1B74F1FCEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A943EF4-5BE8-42F6-B4B2-DC1B74F1FCEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A943EF4-5BE8-42F6-B4B2-DC1B74F1FCEC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E98ECCE-E17B-4864-AB3A-E7B282345713}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E98ECCE-E17B-4864-AB3A-E7B282345713}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E98ECCE-E17B-4864-AB3A-E7B282345713}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E98ECCE-E17B-4864-AB3A-E7B282345713}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4EA73E87-623A-4013-94EF-C0FDC055124A}
+	EndGlobalSection
+EndGlobal

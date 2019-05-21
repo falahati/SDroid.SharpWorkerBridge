@@ -1,0 +1,6 @@
+[submodule "SDroid"]
+	path = SDroid
+	url = git@github.com:falahati/SDroid.git
+[submodule "SharpWorker"]
+	path = SharpWorker
+	url = git@github.com:falahati/SharpWorker.git

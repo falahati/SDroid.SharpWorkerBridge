@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Version>1.0.0-dev0005</Version>
+    <Company>Soroush Falahati (falahati.net)</Company>
+    <Description></Description>
+    <Authors>Soroush Falahati</Authors>
+    <Copyright>Copyright © Soroush Falahati 2018</Copyright>
+    <Platforms>AnyCPU</Platforms>
+    <Product>SDroid</Product>
+    <PackageProjectUrl>https://github.com/falahati/SDroid</PackageProjectUrl>
+    <PackageLicenseUrl>https://github.com/falahati/SDroid/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageIconUrl>https://github.com/falahati/SDroid/raw/master/SDroid/Icon.png</PackageIconUrl>
+    <IncludeSymbols>true</IncludeSymbols>
+    <IncludeSource>true</IncludeSource>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <Title>SDroid.SharpWorkerBridge</Title>
+    <PackageId>SDroid.SharpWorkerBridge</PackageId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\Debug</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <BumpRevision>True</BumpRevision>
+    <BumpResetLabel>dev</BumpResetLabel>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <OutputPath>..\Release</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference PrivateAssets="all" Include="MSBump" Version="2.3.2">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="readme.txt">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
+    <Content Include="Icon.png">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SDroid\SDroid\SDroid.csproj" />
+    <ProjectReference Include="..\SharpWorker\SharpWorker\SharpWorker.csproj" />
+  </ItemGroup>
+</Project>
